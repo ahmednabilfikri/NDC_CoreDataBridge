@@ -8,7 +8,7 @@ public partial class TtTsFbSegmentDetail
     public int Id { get; set; }
 
     public string FbBookingRefNo { get; set; } = null!;
-
+     
     public int SegmentNo { get; set; }
 
     public string Origin { get; set; } = null!;

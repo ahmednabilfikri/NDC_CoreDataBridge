@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
 namespace NDC_Core_DataBridge.Models.Context;
 
-internal sealed partial class NdcCoreDbContext : DbContext
+internal partial class NdcCoreDbContext : DbContext
 {
     private readonly string _connectionString;
     internal NdcCoreDbContext(string connectionString)

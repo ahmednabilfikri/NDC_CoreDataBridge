@@ -1,6 +1,6 @@
 ﻿namespace NDC_Core_DataBridge.Models
 {
-    public sealed class CredentialsDto
+    public class CredentialsDto
     {
         public string Username { get; set; }
         public string Password { get; set; }
